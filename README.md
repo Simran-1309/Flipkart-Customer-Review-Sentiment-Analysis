@@ -5,11 +5,25 @@ This project analyzes Flipkart customer reviews using Natural Language Processin
 
 The objective is to understand customer opinions, identify positive and negative feedback, analyze product-level sentiment, and present insights through an interactive Streamlit dashboard.
 
-## Dataset
-- Source: [Flipkart Product Customer Reviews Dataset – Kaggle](https://www.kaggle.com/datasets/niraliivaghani/flipkart-product-customer-reviews-dataset)
-- Original Records: 205,052
-- Cleaned Reviews: 154,475
-- Unique Products: 841
+Dataset
+
+The dataset used in this project is the Flipkart Product Customer Reviews Dataset.
+
+Source: Download from Kaggle
+
+Dataset Setup
+
+Download Dataset-SA.csv from Kaggle.
+
+Create a folder named Dataset in the project directory.
+
+Place Dataset-SA.csv inside the Dataset folder.
+
+Run sentiment_analysis.py to generate the cleaned and VADER-analyzed CSV files.
+
+Run app.py to launch the dashboard.
+
+Note: Dataset files are excluded from this GitHub repository because of their large size. Users must download the dataset separately.
 
 ## Technologies Used
 - Python
@@ -59,12 +73,12 @@ The objective is to understand customer opinions, identify positive and negative
 
 ### 1. Clone the repository
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/Simran-1309/Flipkart-Customer-Review-Sentiment-Analysis.git
 ```
 
 ### 2. Open the project folder
 ```bash
-cd Custom-Review-Sentiment-Analysis
+cd Flipkart-Customer-Review-Sentiment-Analysis
 ```
 
 ### 3. Install dependencies
